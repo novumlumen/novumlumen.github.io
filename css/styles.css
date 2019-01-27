@@ -1,0 +1,50 @@
+body {
+  background-color: #303030;
+  color: white;
+  font-family: helvetica;
+}
+
+.header img {
+  width: 100%;
+}
+
+.header h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  border: 1px;
+  background-color: black;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  color: #f48838;
+}
+
+li a.active {
+  color: #f48838;
+}
+
+footer {
+  display: block;
+  background-color: black;
+}
+
+
