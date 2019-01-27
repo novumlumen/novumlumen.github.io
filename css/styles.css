@@ -44,7 +44,10 @@ li a.active {
 
 footer {
   display: block;
-  background-color: black;
 }
 
-
+.post {
+  background-color: black;
+  padding: 20px;
+  margin-top: 20px;
+}
